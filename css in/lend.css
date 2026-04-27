@@ -1,0 +1,30 @@
+.head {
+    background: linear-gradient(#ff8800, #ffd000);
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+p {
+    margin: 10px;
+
+}
+
+.program {
+    border: 1px solid #888888;
+    border-radius: 2px;
+    background-color: #c7c7c7;
+}
+.program:hover{
+     border-color: #999;            
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
+    transform: translateY(-2px);
+}
+.zag {
+    list-style: none;
+}
+
+.end {
+    font-size: 10px;
+    text-align: center;
+}

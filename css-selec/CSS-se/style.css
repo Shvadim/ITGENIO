@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: darkred;
+    font-family: Arial, sans-serif;
+    font-style: 16px;
+
+}
+p{
+    color:green;
+    margin: 20px;
+    font-style: 32px;
+}
+p {
+  color: cyan;
+}

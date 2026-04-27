@@ -1,0 +1,82 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Стили для навигации */
+.nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 15px;
+}
+
+.nav h1 {
+    margin: 0;
+    margin-right: 20px;
+    font-size: 1.8rem;
+}
+
+.nav li {
+    cursor: pointer;
+    color: #555;
+}
+
+.nav li:hover {
+    color: #0077cc;
+}
+
+/* ОБЩИЙ СТИЛЬ ДЛЯ ВСЕХ СТАТЕЙ - ЕДИНАЯ РАМКА */
+.article, .two, .inf {
+    border: 1px solid #e0e0e0;     /* Светло-серая рамка */
+    border-radius: 12px;            /* Скруглённые углы */
+    padding: 20px 25px;             /* Внутренние отступы */
+    margin-bottom: 25px;            /* Отступ между статьями */
+    background-color: #ffffff;      /* Белый фон */
+    transition: all 0.2s ease;      /* Плавный эффект при наведении */
+}
+
+/* Эффект при наведении мыши */
+.article:hover, .two:hover, .inf:hover {
+    border-color: #999;             /* Рамка становится темнее */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08); /* Лёгкая тень */
+    transform: translateY(-2px);    /* Лёгкий подъём */
+}
+
+/* Стили для заголовков внутри рамок */
+.article h2, .two h2, .inf h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+/* Стили для параграфов внутри рамок */
+.article p, .two p, .inf p {
+    margin-bottom: 0;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Стиль для футера */
+footer {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+}
+
+footer h6 {
+    margin: 0;
+    font-weight: normal;
+}

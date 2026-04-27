@@ -1,0 +1,24 @@
+* {
+    background-color: beige;
+}
+
+h2 {
+    color: green;
+    text-align: center;
+}
+
+span {
+    color: #53e483;
+    font-size: 25px;
+}
+
+li {
+    font-weight: bold;
+    font-size:30px;
+}
+
+img {
+    border: solid 2px green;
+    width: 200px;
+    margin: 20px;
+}

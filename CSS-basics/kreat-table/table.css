@@ -1,0 +1,11 @@
+table {
+    background-color:aqua;
+}
+td{
+    color: ghostwhite;
+    background-color:brown;
+}
+th{
+    color:black;
+    background-color:aliceblue
+}

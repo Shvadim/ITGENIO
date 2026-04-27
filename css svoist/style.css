@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e6d5b8;
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #fffaf2;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 35px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #d4a373;
+}
+
+.title {
+    font-size: 42px;
+    color: #5e3a1c;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #9c6e3e;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.blocks {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 35px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #e6d5b8;
+    flex: 1;
+    min-width: 220px;
+}
+
+.card h2 {
+    font-size: 24px;
+    color: #b97f44;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.card p {
+    font-size: 15px;
+    color: #4a3b2c;
+    line-height: 1.5;
+}
+
+.text1 {
+    line-height: 1.8;
+}
+
+.text2 {
+    font-style: italic;
+    text-align: center;
+}
+
+.text2 strong {
+    text-decoration: underline;
+}
+
+.text3 {
+    text-align: right;
+    background: #fef7e8;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.offer {
+    background: #f0dbb2;
+    padding: 18px;
+    text-align: center;
+    border-radius: 40px;
+    margin-bottom: 30px;
+    border: 2px dashed #b97f44;
+}
+
+.offer p:first-child {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+}
+
+.button-wrap {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: #b97f44;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 0 #6b3e1a;
+}
+
+.btn:hover {
+    background: #d49654;
+    letter-spacing: 1px;
+}
+
+.btn:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 #6b3e1a;
+}
+
+.footer {
+    background: #e6d5b8;
+    padding: 12px;
+    text-align: center;
+    border-radius: 12px;
+    opacity: 0.8;
+}
+
+.footer:hover {
+    opacity: 1;
+}
+
+.hidden {
+    margin-top: 6px;
+    font-size: 13px;
+    color: #b97f44;
+    visibility: hidden;
+}
+
+.footer:hover .hidden {
+    visibility: visible;
+}
+
